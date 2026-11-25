@@ -1,0 +1,9 @@
+lam= 0.05 N=  1024  full mean= 0.34 median= 0.33 frac<0=0.19 | pair-only mean=-0.28
+lam= 0.05 N=  4096  full mean= 0.79 median= 0.91 frac<0=0.02 | pair-only mean=-0.08
+lam= 0.05 N= 16384  full mean= 0.97 median= 0.99 frac<0=0.00 | pair-only mean=-0.08
+lam= 0.05 N= 65536  full mean= 1.00 median= 1.00 frac<0=0.00 | pair-only mean=-0.05
+lam= 0.50 N=  1024  full mean= 0.19 median= 0.16 frac<0=0.00 | pair-only mean=-0.02
+lam= 0.50 N=  4096  full mean= 0.53 median= 0.60 frac<0=0.00 | pair-only mean=-0.01
+lam= 0.50 N= 16384  full mean= 0.79 median= 0.91 frac<0=0.00 | pair-only mean=-0.05
+lam= 0.50 N= 65536  full mean= 0.95 median= 1.00 frac<0=0.00 | pair-only mean=-0.05
+lam= 5.00 N=  1024  full mean= 0.02 median= 0.02 frac<0=0.00 | pair-only mean=-0.01

@@ -1,0 +1,62 @@
+[   5s] W=16 done, distinct tables so far 25
+[   9s] W=32 done, distinct tables so far 35
+[  14s] W=64 done, distinct tables so far 37
+[  19s] W=128 done, distinct tables so far 38
+[  24s] W=256 done, distinct tables so far 38
+[  29s] W=512 done, distinct tables so far 38
+[  34s] W=1024 done, distinct tables so far 38
+[  39s] W=4096 done, distinct tables so far 38
+[  43s] W=10000 done, distinct tables so far 38
+
+distinct tables: 38
+0 LER under burst 8.83%  under baseline 2.54% bits@0x4= 1
+1 LER under burst 9.38%  under baseline 3.23% bits@0x4= 1
+2 LER under burst 4.70%  under baseline 4.65% bits@0x4= 0
+3 LER under burst 9.51%  under baseline 3.23% bits@0x4= 1
+4 LER under burst 10.43%  under baseline 3.94% bits@0x4= 1
+5 LER under burst 11.12%  under baseline 4.62% bits@0x4= 1
+6 LER under burst 15.94%  under baseline 6.41% bits@0x4= 1
+7 LER under burst 11.11%  under baseline 4.65% bits@0x4= 1
+8 LER under burst 14.55%  under baseline 4.98% bits@0x4= 1
+9 LER under burst 4.10%  under baseline 3.92% bits@0x4= 0
+10 LER under burst 10.08%  under baseline 3.92% bits@0x4= 1
+11 LER under burst 4.62%  under baseline 4.62% bits@0x4= 0
+12 LER under burst 10.34%  under baseline 3.92% bits@0x4= 1
+13 LER under burst 4.07%  under baseline 3.94% bits@0x4= 0
+14 LER under burst 14.73%  under baseline 4.98% bits@0x4= 1
+15 LER under burst 10.33%  under baseline 3.91% bits@0x4= 1
+16 LER under burst 4.09%  under baseline 3.91% bits@0x4= 0
+17 LER under burst 10.33%  under baseline 3.91% bits@0x4= 1
+18 LER under burst 4.09%  under baseline 3.91% bits@0x4= 0
+19 LER under burst 6.98%  under baseline 6.76% bits@0x4= 0
+20 LER under burst 6.38%  under baseline 6.03% bits@0x4= 0
+21 LER under burst 5.61%  under baseline 5.30% bits@0x4= 0
+22 LER under burst 4.06%  under baseline 3.93% bits@0x4= 0
+23 LER under burst 8.82%  under baseline 2.53% bits@0x4= 1
+24 LER under burst 4.10%  under baseline 3.92% bits@0x4= 0
+25 LER under burst 13.37%  under baseline 3.58% bits@0x4= 1
+26 LER under burst 8.83%  under baseline 2.54% bits@0x4= 1
+27 LER under burst 6.21%  under baseline 6.03% bits@0x4= 0
+28 LER under burst 11.02%  under baseline 4.64% bits@0x4= 1
+29 LER under burst 8.82%  under baseline 2.53% bits@0x4= 1
+30 LER under burst 4.73%  under baseline 4.64% bits@0x4= 0
+31 LER under burst 10.34%  under baseline 3.92% bits@0x4= 1
+32 LER under burst 8.82%  under baseline 2.53% bits@0x4= 1
+33 LER under burst 8.83%  under baseline 2.54% bits@0x4= 1
+34 LER under burst 4.10%  under baseline 3.92% bits@0x4= 0
+35 LER under burst 10.34%  under baseline 3.92% bits@0x4= 1
+36 LER under burst 5.70%  under baseline 5.70% bits@0x4= 0
+37 LER under burst 4.12%  under baseline 3.94% bits@0x4= 0
+oracle under burst 4.05%, static under burst 8.83%
+
+P(good decision) = P(table with burst LER<5%) by burst fraction f, per window W
+f      0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00
+W=   16 0.18  0.22  0.18  0.24  0.28  0.32  0.32  0.36  0.51  0.46  0.53
+W=   32 0.15  0.15  0.28  0.27  0.39  0.45  0.44  0.53  0.53  0.59  0.69
+W=   64 0.05  0.07  0.15  0.17  0.30  0.33  0.45  0.60  0.59  0.66  0.72
+W=  128 0.01  0.04  0.10  0.16  0.30  0.39  0.54  0.62  0.75  0.81  0.82
+W=  256 0.00  0.01  0.01  0.14  0.21  0.40  0.61  0.79  0.87  0.93  0.95
+W=  512 0.00  0.00  0.01  0.07  0.28  0.53  0.77  0.86  0.96  0.98  1.00
+W= 1024 0.00  0.00  0.01  0.03  0.18  0.55  0.86  0.97  0.99  1.00  1.00
+W= 4096 0.00  0.00  0.00  0.00  0.12  0.78  0.98  1.00  1.00  1.00  1.00
+W=10000 0.00  0.00  0.00  0.00  0.05  0.88  1.00  1.00  1.00  1.00  1.00

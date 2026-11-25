@@ -1,0 +1,43 @@
+scenario,q,decoder,LER,se,n
+baseline (prior),0.01,"AVID projection, naive estimator",0.10042,0.0,20
+baseline (prior),0.01,"AVID projection, aware + 0 labeled",0.10039099999999998,2.8999999999999854e-05,20
+baseline (prior),0.01,"AVID projection, aware + 64 labeled",0.1022585,0.0015904794502221485,20
+baseline (prior),0.01,"AVID projection, aware + 256 labeled",0.09990349999999999,0.00011060901980922606,20
+baseline (prior),0.01,"AVID projection, aware + 1024 labeled",0.10032650000000001,4.3415222894134265e-05,20
+baseline (prior),0.01,B0 static,0.10042,0.0009504515958216915,1
+baseline (prior),0.01,MWPM true rates,0.10042,0.0009504515958216915,1
+baseline (prior),0.02,"AVID projection, naive estimator",0.14719749999999998,0.000758565777947888,20
+baseline (prior),0.02,"AVID projection, aware + 0 labeled",0.102915,0.00041072304665386343,20
+baseline (prior),0.02,"AVID projection, aware + 64 labeled",0.109281,0.0029651652922773656,20
+baseline (prior),0.02,"AVID projection, aware + 256 labeled",0.1047105,0.0011832403045962617,20
+baseline (prior),0.02,"AVID projection, aware + 1024 labeled",0.10303200000000001,0.0003392535148947189,20
+baseline (prior),0.02,B0 static,0.10184,0.0009563922542555434,1
+baseline (prior),0.02,MWPM true rates,0.10184,0.0009563922542555434,1
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, naive estimator",0.15797150000000001,0.006881100519194817,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, aware + 0 labeled",0.15073199999999998,0.0001380133479433286,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, aware + 64 labeled",0.1547535,0.0013304443806488118,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, aware + 256 labeled",0.1515,0.0006568361167068434,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, aware + 1024 labeled",0.15050200000000002,0.00010877935175584018,20
+"R1 repo (q4 .055, pair45 .075)",0.01,B0 static,0.27343,0.001409489393716746,1
+"R1 repo (q4 .055, pair45 .075)",0.01,MWPM true rates,0.2732,0.001409119441353358,1
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, naive estimator",0.21845200000000004,0.015361505847238312,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, aware + 0 labeled",0.1516145,5.609894923492985e-05,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, aware + 64 labeled",0.15466449999999998,0.0012106234746478458,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, aware + 256 labeled",0.15159899999999998,0.0001328273513368308,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, aware + 1024 labeled",0.1517045,5.255323115911795e-06,20
+"R1 repo (q4 .055, pair45 .075)",0.02,B0 static,0.27126,0.0014059801293048206,1
+"R1 repo (q4 .055, pair45 .075)",0.02,MWPM true rates,0.26351,0.0013930989910986226,1
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, naive estimator",0.2765185,0.010216859783169552,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, aware + 0 labeled",0.2919455,0.000196049772144462,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, aware + 64 labeled",0.19376549999999998,0.016610160769129113,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, aware + 256 labeled",0.14724099999999998,0.011198497077263257,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, aware + 1024 labeled",0.1277535,0.00016469313570203253,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,B0 static,0.12989,0.0010631020078054599,1
+"R3 alias-swap (q4 .055, q3 .075)",0.01,MWPM true rates,0.12748,0.0010546508882089845,1
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, naive estimator",0.21079800000000004,0.014167520482836048,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, aware + 0 labeled",0.29094049999999994,1.6975214129308784e-06,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, aware + 64 labeled",0.17942550000000002,0.014888866194770822,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, aware + 256 labeled",0.145546,0.007877280100991311,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, aware + 1024 labeled",0.1336785,0.0005641632252609539,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,B0 static,0.13532,0.0010817046620958976,1
+"R3 alias-swap (q4 .055, q3 .075)",0.02,MWPM true rates,0.13256,0.0010723238615269175,1

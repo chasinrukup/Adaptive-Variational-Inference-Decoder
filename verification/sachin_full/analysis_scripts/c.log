@@ -1,0 +1,12 @@
+[   1s] baseline (prior) q=0.0: AVID proj, naive estim 9.32 | MAP marginal, naive es 9.32 | B0 static 9.31 | MWPM true rates 9.31
+[   3s] baseline (prior) q=0.005: AVID proj, naive estim 9.76 | MAP marginal, naive es 9.76 | AVID proj, aware estim 9.74 | MAP marginal, aware es 9.74 | B0 static 9.74 | MWPM true rates 9.74
+[   5s] baseline (prior) q=0.01: AVID proj, naive estim 10.15 | MAP marginal, naive es 10.04 | AVID proj, aware estim 10.03 | MAP marginal, aware es 10.03 | B0 static 10.04 | MWPM true rates 10.04
+[   8s] baseline (prior) q=0.02: AVID proj, naive estim 15.28 | MAP marginal, naive es 10.70 | AVID proj, aware estim 10.34 | MAP marginal, aware es 10.34 | B0 static 10.18 | MWPM true rates 10.18
+[  10s] R1 repo (q4 .055, pair45 .075) q=0.0: AVID proj, naive estim 14.45 | MAP marginal, naive es 26.69 | B0 static 26.69 | MWPM true rates 26.69
+[  13s] R1 repo (q4 .055, pair45 .075) q=0.005: AVID proj, naive estim 14.84 | MAP marginal, naive es 27.18 | AVID proj, aware estim 14.83 | MAP marginal, aware es 27.17 | B0 static 27.16 | MWPM true rates 27.14
+[  17s] R1 repo (q4 .055, pair45 .075) q=0.01: AVID proj, naive estim 15.82 | MAP marginal, naive es 27.41 | AVID proj, aware estim 15.09 | MAP marginal, aware es 27.36 | B0 static 27.34 | MWPM true rates 27.32
+[  22s] R1 repo (q4 .055, pair45 .075) q=0.02: AVID proj, naive estim 24.58 | MAP marginal, naive es 27.39 | AVID proj, aware estim 15.17 | MAP marginal, aware es 26.72 | B0 static 27.13 | MWPM true rates 26.35
+[  24s] R3 alias-swap (q4 .055, q3 .075) q=0.0: AVID proj, naive estim 28.91 | MAP marginal, naive es 11.75 | B0 static 11.75 | MWPM true rates 11.75
+[  27s] R3 alias-swap (q4 .055, q3 .075) q=0.005: AVID proj, naive estim 29.20 | MAP marginal, naive es 12.40 | AVID proj, aware estim 29.24 | MAP marginal, aware es 12.38 | B0 static 12.40 | MWPM true rates 12.39
+[  31s] R3 alias-swap (q4 .055, q3 .075) q=0.01: AVID proj, naive estim 28.38 | MAP marginal, naive es 13.01 | AVID proj, aware estim 29.21 | MAP marginal, aware es 12.95 | B0 static 12.99 | MWPM true rates 12.75
+[  37s] R3 alias-swap (q4 .055, q3 .075) q=0.02: AVID proj, naive estim 18.38 | MAP marginal, naive es 14.23 | AVID proj, aware estim 29.09 | MAP marginal, aware es 13.81 | B0 static 13.53 | MWPM true rates 13.26

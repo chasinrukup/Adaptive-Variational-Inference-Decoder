@@ -1,0 +1,67 @@
+scenario,q,decoder,LER,se,n
+baseline (prior),0.0,"AVID projection, naive estimator",0.09315000000000001,3.1837828744296875e-18,20
+baseline (prior),0.0,"MAP marginal, naive estimator",0.09315000000000001,3.1837828744296875e-18,20
+baseline (prior),0.0,B0 static,0.09315,0.0009190923647816906,1
+baseline (prior),0.0,MWPM true rates,0.09315,0.0009190923647816906,1
+baseline (prior),0.005,"AVID projection, naive estimator",0.097565,1.3426211598762143e-05,20
+baseline (prior),0.005,"MAP marginal, naive estimator",0.097565,1.3426211598762143e-05,20
+baseline (prior),0.005,"AVID projection, aware estimator",0.09743349999999998,1.3128915456064829e-06,20
+baseline (prior),0.005,"MAP marginal, aware estimator",0.09743349999999998,1.3128915456064829e-06,20
+baseline (prior),0.005,B0 static,0.09743,0.0009377494073578506,1
+baseline (prior),0.005,MWPM true rates,0.09743,0.0009377494073578506,1
+baseline (prior),0.01,"AVID projection, naive estimator",0.10153399999999999,0.0011140000000000004,20
+baseline (prior),0.01,"MAP marginal, naive estimator",0.10042,0.0,20
+baseline (prior),0.01,"AVID projection, aware estimator",0.10034499999999999,3.888241383020301e-05,20
+baseline (prior),0.01,"MAP marginal, aware estimator",0.10034499999999999,3.888241383020301e-05,20
+baseline (prior),0.01,B0 static,0.10042,0.0009504515958216915,1
+baseline (prior),0.01,MWPM true rates,0.10042,0.0009504515958216915,1
+baseline (prior),0.02,"AVID projection, naive estimator",0.1527745,0.0016615030410032836,20
+baseline (prior),0.02,"MAP marginal, naive estimator",0.10701999999999998,6.367565748859375e-18,20
+baseline (prior),0.02,"AVID projection, aware estimator",0.1033625,0.00040234305537753057,20
+baseline (prior),0.02,"MAP marginal, aware estimator",0.1033625,0.00040234305537753057,20
+baseline (prior),0.02,B0 static,0.10184,0.0009563922542555434,1
+baseline (prior),0.02,MWPM true rates,0.10184,0.0009563922542555434,1
+"R1 repo (q4 .055, pair45 .075)",0.0,"AVID projection, naive estimator",0.14449999999999996,6.367565748859375e-18,20
+"R1 repo (q4 .055, pair45 .075)",0.0,"MAP marginal, naive estimator",0.2668800000000001,2.54702629954375e-17,20
+"R1 repo (q4 .055, pair45 .075)",0.0,B0 static,0.26688,0.0013987675489515762,1
+"R1 repo (q4 .055, pair45 .075)",0.0,MWPM true rates,0.26688,0.0013987675489515762,1
+"R1 repo (q4 .055, pair45 .075)",0.005,"AVID projection, naive estimator",0.14837699999999998,7.700000000000068e-05,20
+"R1 repo (q4 .055, pair45 .075)",0.005,"MAP marginal, naive estimator",0.27179000000000003,1.273513149771875e-17,20
+"R1 repo (q4 .055, pair45 .075)",0.005,"AVID projection, aware estimator",0.14829999999999996,6.367565748859375e-18,20
+"R1 repo (q4 .055, pair45 .075)",0.005,"MAP marginal, aware estimator",0.27167800000000003,9.8835322899393e-06,20
+"R1 repo (q4 .055, pair45 .075)",0.005,B0 static,0.27164,0.0014065977051026352,1
+"R1 repo (q4 .055, pair45 .075)",0.005,MWPM true rates,0.2714,0.001406207808255949,1
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, naive estimator",0.15815600000000002,0.006870990750593166,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"MAP marginal, naive estimator",0.27407,0.0,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"AVID projection, aware estimator",0.1508605,0.0001346701135132971,20
+"R1 repo (q4 .055, pair45 .075)",0.01,"MAP marginal, aware estimator",0.273554,1.350243642731342e-05,20
+"R1 repo (q4 .055, pair45 .075)",0.01,B0 static,0.27343,0.001409489393716746,1
+"R1 repo (q4 .055, pair45 .075)",0.01,MWPM true rates,0.2732,0.001409119441353358,1
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, naive estimator",0.24578800000000003,0.015361505847238312,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"MAP marginal, naive estimator",0.2739025,8.817409513361599e-05,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"AVID projection, aware estimator",0.15166849999999998,3.925289127802536e-06,20
+"R1 repo (q4 .055, pair45 .075)",0.02,"MAP marginal, aware estimator",0.26723649999999993,0.0009055554489111267,20
+"R1 repo (q4 .055, pair45 .075)",0.02,B0 static,0.27126,0.0014059801293048206,1
+"R1 repo (q4 .055, pair45 .075)",0.02,MWPM true rates,0.26351,0.0013930989910986226,1
+"R3 alias-swap (q4 .055, q3 .075)",0.0,"AVID projection, naive estimator",0.28913,0.0,20
+"R3 alias-swap (q4 .055, q3 .075)",0.0,"MAP marginal, naive estimator",0.11754,0.0,20
+"R3 alias-swap (q4 .055, q3 .075)",0.0,B0 static,0.11754,0.001018451512837013,1
+"R3 alias-swap (q4 .055, q3 .075)",0.0,MWPM true rates,0.11754,0.001018451512837013,1
+"R3 alias-swap (q4 .055, q3 .075)",0.005,"AVID projection, naive estimator",0.29203900000000005,0.0001476302279701762,20
+"R3 alias-swap (q4 .055, q3 .075)",0.005,"MAP marginal, naive estimator",0.12399,0.0,20
+"R3 alias-swap (q4 .055, q3 .075)",0.005,"AVID projection, aware estimator",0.2924000000000001,6.920602346768369e-06,20
+"R3 alias-swap (q4 .055, q3 .075)",0.005,"MAP marginal, aware estimator",0.123843,2.9487731614850974e-05,20
+"R3 alias-swap (q4 .055, q3 .075)",0.005,B0 static,0.12399,0.0010421923042318053,1
+"R3 alias-swap (q4 .055, q3 .075)",0.005,MWPM true rates,0.12391,0.0010419036035065816,1
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, naive estimator",0.283813,0.007424676108477021,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"MAP marginal, naive estimator",0.13008,0.0,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"AVID projection, aware estimator",0.2921485,0.00016188409596472523,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,"MAP marginal, aware estimator",0.12951799999999997,2.4979991993594997e-05,20
+"R3 alias-swap (q4 .055, q3 .075)",0.01,B0 static,0.12989,0.0010631020078054599,1
+"R3 alias-swap (q4 .055, q3 .075)",0.01,MWPM true rates,0.12748,0.0010546508882089845,1
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, naive estimator",0.18384600000000004,0.009274819288919073,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"MAP marginal, naive estimator",0.14230050000000002,7.97379755000221e-05,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"AVID projection, aware estimator",0.2909415,1.4999999999981402e-06,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,"MAP marginal, aware estimator",0.138072,0.0004528230745468979,20
+"R3 alias-swap (q4 .055, q3 .075)",0.02,B0 static,0.13532,0.0010817046620958976,1
+"R3 alias-swap (q4 .055, q3 .075)",0.02,MWPM true rates,0.13256,0.0010723238615269175,1

@@ -1,0 +1,8 @@
+[  13s] repo (q4 .055, pair45 .075): static 8.82% oracle 4.05%
+[  50s] weak (q4 .03, pair45 .04): static 5.79% oracle 3.99%
+[  85s] strong (q4 .09, pair45 .12): static 12.46% oracle 4.14%
+[ 120s] top (q1 .055, pair01 .075): static 8.79% oracle 4.03%
+[ 154s] bottom (q7 .055, pair78 .075): static 8.79% oracle 4.03%
+[ 187s] single only (q3 .075): static 2.85% oracle 2.81%
+[ 220s] pair only (pair45 .075): static 8.97% oracle 4.03%
+saved
